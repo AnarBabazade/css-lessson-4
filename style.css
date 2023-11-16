@@ -1,0 +1,84 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+body{
+    width: 100%;
+    height: 500px;
+}
+
+
+.header .top{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    font-size: 15px;
+}
+.header .first{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.header .second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.down{
+    margin-top: 30px;
+}
+.first h1 span{
+    font-size: 12px;
+
+}
+.first input{
+    width: 500px;
+    height: 35px;
+    background-color: rgb(226, 215, 215);
+    border: 1px solid white;
+    position: relative;
+}
+.top ul li a{
+    font-size: 14px;
+    color: black;
+}
+.first ul li a{
+    color: black;
+}
+.second ul li a{
+    color: black;
+}
+.first input i{
+    position: absolute ;
+    margin-right: 40px;
+}
+.bottom{
+display: flex;
+align-items: center;
+justify-content: right;
+justify-content: space-around;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom ul li a img{
+    width: 66px;
+    height: 66px;
+    
+}
+.bottom ul li a{
+    display: flex;
+    align-items: flex-end;
+}
+.second ul li a span{
+    background-color: red;
+
+}
